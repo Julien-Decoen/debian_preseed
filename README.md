@@ -35,6 +35,10 @@ https://github.com/Tontonjo/debian_preseed/archive/refs/heads/main.zip
 Preseed file is located in /root/extracted_iso/iso/jo/preseed.cfg  
 Custom menu file is located in /root/extracted_iso/iso//isolinux/txt.cfg  
 
+### Install Genisoimnage:  
+```shell
+apt-get install -y genisoimage
+```  
 ### Generate your new customized ISO  
 ```shell
 genisoimage -o /root/preseeded_debian.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J -r .
