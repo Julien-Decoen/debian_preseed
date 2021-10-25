@@ -13,7 +13,7 @@ and to [Subscribe to my youtube channel](http://youtube.com/channel/UCnED3K6K5FD
 You can watch a demonstration of the tool [with Joix OS](https://www.youtube.com/watch?v=XqYi9IQea68) 
 
 ## How-to:  
-### Download your ISO and upload it on your host  
+### Download your new ISO and upload it on your host  
 ### Create a directory where the ISO will be mounted on  
 ```shell
 mkdir /mnt/iso
