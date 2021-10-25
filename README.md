@@ -10,7 +10,7 @@ If you find this usefull, please think about
 <a href="https://www.buymeacoffee.com/tontonjo"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"></a>
 and to [Subscribe to my youtube channel](http://youtube.com/channel/UCnED3K6K5FDUp-x_8rwpsZw?sub_confirmation=1)
 
-You can watch a demonstration of the tool [with Joix OS](https://www.youtube.com/watch?v=XqYi9IQea68) 
+You can watch a demonstration of a preseeded installation [with Joix OS](https://www.youtube.com/watch?v=XqYi9IQea68) 
 
 ## How-to:  
 ### Download your new ISO and upload it on your host  
