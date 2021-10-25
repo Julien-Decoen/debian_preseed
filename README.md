@@ -12,16 +12,22 @@ and to [Subscribe to my youtube channel](http://youtube.com/channel/UCnED3K6K5FD
 
 You can watch a demonstration of the tool [with Joix OS](https://www.youtube.com/watch?v=XqYi9IQea68) 
 
-
+## How-to:  
+### Download your ISO and upload it on your host  
+### Create a directory where the ISO will be mounted on  
 ```shell
 mkdir /mnt/iso
 ```
+### Create a directory where the ISO will be mounted on  
 ```shell
 mount -o loop "/root/debian.iso" /mnt/iso
 ```
+### Copy the content of the ISO in a new folder  
 ```shell
 cp -r /mnt/iso "/root/iso/"
 ```
+
+### Generate your new customized ISO  
 ```shell
 genisoimage -o /root/preseeded_debian.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J -r .
 ```
