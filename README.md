@@ -9,12 +9,6 @@ mkdir /mnt/iso
 mount -o loop "/root/debian.iso" /mnt/iso
 ```
 ```shell
-mount -o loop "/root/debian.iso" /mnt/iso
-```
-```shell
-cp -r /mnt/iso "/root/iso/"
-```
-```shell
 cp -r /mnt/iso "/root/iso/"
 ```
 ```shell
