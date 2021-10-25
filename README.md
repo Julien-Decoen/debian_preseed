@@ -26,7 +26,7 @@ mount -o loop "/root/debian.iso" /mnt/iso
 ```shell
 cp -r /mnt/iso "/root/extracted_iso/"
 ```
-### Download the content of debian_preseed repository and copy all the files in /root/iso/
+### Download the content of debian_preseed repository and copy all the files in "/root/extracted_iso/iso"
 https://github.com/Tontonjo/debian_preseed/archive/refs/heads/main.zip
 
 ### Edit configurations as you need:  
